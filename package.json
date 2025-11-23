@@ -1,0 +1,41 @@
+{
+  "name": "@bedrock-apis/carolina-authentication",
+  "version": "1.0.0-beta.3",
+  "description": "fast, minimal dependency, modular package for minecraft JWT authentication",
+  "scripts": {
+    "check": "tsgo --noEmit",
+    "build": "rolldown -c"
+  },
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "type": "module",
+  "author": "bedrock-apis",
+  "license": "MIT",
+  "keywords": [
+    "jwt",
+    "authentication",
+    "bedrock",
+    "protocol",
+    "minecraft"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "./dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedrock-apis/carolina-authentication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bedrock-apis/carolina-authentication/issues"
+  },
+  "homepage": "https://github.com/bedrock-apis/carolina-authentication#readme",
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20251123.1",
+    "rolldown": "^1.0.0-beta.51",
+    "rolldown-plugin-dts": "^0.18.0"
+  }
+}
