@@ -5,7 +5,7 @@ export default {
     input: {
         "main":"./src/main.ts",
     },
-    plugins: [dts({tsgo: true })],
+    plugins: [dts({oxc: true })],
     output:{
         cleanDir: true,
         dir: "dist"
